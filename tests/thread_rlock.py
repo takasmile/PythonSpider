@@ -21,5 +21,5 @@ class myThread(threading.Thread):
 if __name__ == '__main__':
     thread1 = myThread('Thread_1')
     thread2 = myThread('Thread_2')
-    thread1.start()
+    thread1.start() 
     thread2.start()
